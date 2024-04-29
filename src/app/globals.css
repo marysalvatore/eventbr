@@ -31,3 +31,33 @@ body {
     text-wrap: balance;
   }
 }
+
+.outer-div{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  border-bottom: 1px solid gray;
+}
+.inner {
+  position: absolute;
+  color: #6f7287;
+  border: 1px solid #a9a8b3;
+  border-radius: 100px;
+  background: #fff;
+  display: inline-block;
+  padding: 0 12px 3px;
+  min-width: 20px;
+  text-align: center;
+}
+.info {
+  background: url('../../public/login-image-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%
+}
+.footer {
+  background-color: #1e0a3d;
+  color: white
+}
